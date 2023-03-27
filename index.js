@@ -85,3 +85,43 @@ let airnib = {
     'isava': true,
 };
 console.log(airnib['price']);
+
+// const a = {'name': 'Umer', 'age': 12}
+
+// console.log(a);
+// a['name'] = 'anas'
+// console.log(a);
+
+// console.log(a);
+// a['name'] = 12
+// console.log(a);
+
+// a['gender'] = 0;
+// console.log(a);
+
+
+let a = '1';
+let b = 2;
+
+// console.log(a==b)
+// console.log(a===b)
+
+// let name = "I'D like to add";
+// console.log(name)
+
+// var result= "1 banana + 1 pineapple + 3 o4ranges";
+// console.log(result.match(/[0-9]+/g))
+
+let text = "HELLO WORLD";
+// console.log(text);
+text[0] = "1";
+// console.log(text);
+
+let arr = [33,222222,4,2,55,11,22,012,21,3232,434];
+
+let compare = (a, b) => {
+  return a-b
+  //descnding
+  //ascending
+}
+console.log(arr.sort(compare))
